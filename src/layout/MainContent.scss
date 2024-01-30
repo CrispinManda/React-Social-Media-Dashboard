@@ -1,0 +1,33 @@
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+    flex: 5.57;
+
+    .spacing{
+        margin: 20px;
+        background-color: blue;
+        height: 150px;
+        width: 70%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        .end{
+            float: right;
+            padding: 5px;
+            margin: 13px 9px;
+            border-radius: 5px;
+            border: none;
+
+          
+        }
+
+        .avatar{
+            margin-top: 120px;
+            margin-left: 30px;
+            display:flex;
+            flex-direction: row;
+        }
+    }
+}
